@@ -1,0 +1,22 @@
+ body{
+     font-family: "Montserrat", sans-serif;
+     background-color: azure;
+}
+
+/* .banner{
+    width: 100%;
+} */
+
+.banner-image{
+    background-image: url(images/banner.png);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+
+    
+  
+} 
+hr{
+    color: lightseagreen;
+    border-style: dashed;
+}

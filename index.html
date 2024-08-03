@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        
+        <!-- daisy ui  -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <!-- css here -->
+         <link rel="stylesheet" href="style.css">
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+</head>
+<body class="px-12 py-5">
+
+    <header>
+        <nav class="flex justify-between m-4">
+            <div>
+                <a href="" class="text-3xl font-extrabold text-[#4b0081]">P-ticket</a>
+            </div>
+            <div class="flex gap-6 text-gray-700 ">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Destination</a>
+                <a href="">Search</a>
+            </div>
+            <div>
+                <div class="bg-[#fed700] px-8 py-2 rounded-md text-[#4b0081] font-semibold text-xl">
+                    <a href="">Bus</a>
+                    <i></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="banner w-[100%] h-[100vh]">
+            <div class="banner-image  bg-no-repeat  h-[80%] w-[100%] text-center flex flex-col justify-center items-center rounded-lg relative">
+                <h2 class="text-7xl font-extrabold text-gray-100">End-to-End Travel  with <br> <span class="text-orange-500-700">P Paribahan</span></h2>
+                <p class="py-4 text-gray-100">Yes, you can run unit tests and view the results directly within the app. <br> The integrated testing features allow for a streamlined .</p>
+                <button class="btn btn-primary ">Buy Tickets</button>
+            </div>
+            <div class="flex  absolute bottom-2 gap-20 pl-44">
+                <div class="user-number bg-[#fed700] border-b-4 py-5 px-14 rounded-2xl flex gap-5">
+                    <i class="fa-solid  fa-people-group fa-2xl flex justify-center items-center text-[#4b0081]"></i>
+                    <div class="" >
+                        <h5 class="font-bold text-2xl text-[#4b0081]">500K+</h5>
+                        <p>Registered Users</p>
+                    </div>
+                </div>
+                <div class="tickets-sold bg-[#fed700] border-b-4 py-5 px-16 rounded-2xl flex gap-5">
+                    <i class="fa-solid fa-ticket fa-2xl flex justify-center items-center text-[#4b0081]"></i>
+                    <div class="">
+                        <h5 class="font-bold text-2xl text-[#4b0081]">1.7 Lakhs</h5>
+                        <p>Ticket Sold</p>
+                    </div>
+                </div>
+                <div class="rental-partners bg-[#fed700] border-b-4 py-5 px-16 rounded-2xl flex gap-5">
+                    <i class="fa-solid fa-bus fa-2xl flex justify-center items-center text-[#4b0081]"></i>
+                    <div class="">
+                        <h5 class="font-bold text-2xl text-[#4b0081]">80k+</h5>
+                        <p>Rental Partners</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-offer mt-8 ">
+            <h2 class=" text-4xl font-extrabold text-[#4b0081] text-center py-4">Best offers for you</h2>
+            <div class="flex justify-evenly pt-10">
+                <div class="15% flex  w-100% h-[150px] ">
+                    <div class=" bg-[#fed700] p-10 w-2/3 h-[150px] gap-28 rounded-lg ">
+                        <h2 class="text-xl font-extrabold text-[#4b0081]">15% OFF</h2>
+                        <p class="text-lg font-semibold text-[#4b0081]">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img class="h-[150px]" src="images/info-devider.png" alt="">
+                    <div class=" bg-[#fed700] w-1/3 h-[150px] p-10 gap-28 rounded-lg">
+                        <p class="text-xl font-bold text-[#4b0081]">NEW15</p>
+                        <p class="text-lg font-semibold text-[#4b0081]">Coupon Code</p>
+                    </div>
+                </div>
+
+                <div class="15% flex  w-100% h-[150px] ">
+                    <div class=" bg-[#fed700] p-10 w-2/3 h-[150px] gap-28 rounded-lg ">
+                        <h2 class="text-xl font-extrabold text-[#4b0081]">20% OFF</h2>
+                        <p class="text-lg font-semibold text-[#4b0081]">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img class="h-[150px]" src="images/info-devider.png" alt="">
+                    <div class=" bg-[#fed700] w-1/3 h-[150px] p-10 gap-28 rounded-lg">
+                        <p class="text-xl font-bold text-[#4b0081]">NEW15</p>
+                        <p class="text-lg font-semibold text-[#4b0081]">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center p-10">
+                <button class=" btn btn-primary  ">See All Offers </button>
+            </div>
+        </section>
+        <section class="select-seat" class="py-5">
+            <div>
+                <h3 class="text-5xl font-extrabold text-[#4b0081] text-center py-4">P.H Paribahan</h3>
+                <p class="py-4 text-gray-700 text-center " >Yes, you can run unit tests and view the results directly within the app. <br> The integrated testing features allow for a streamlined .</p>
+            </div>
+            <div>
+
+               <div>
+                <div class="flex">
+                    <div class="w-3/4 bg-[#E6E8E6] rounded-2xl flex flex-col gap-8 p-10 h-72">
+                        <div class="flex gap-6 justify-between">
+                           
+                            <div class="flex gap-4">
+                                <i class="fa-solid text-3xl text-[#ff69b3] fa-van-shuttle"></i>
+                                <div>
+                                    <h4 class=" text-3xl font-bold text-[#4b0081] pb-4">Greenline Paribahan</h4>
+                                    <p class="text-xl text-gray-1">Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div class="flex w-56 h-10 bg-[#3b82f6] justify-evenly py-6 rounded-xl">
+                                <i class="fa-solid text-[#ff69b3] text-3xl fa-couch flex items-center"></i>
+                                <p class="text-[#ff69b3] flex items-center text-xl font-bold">40 Seats left</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <h2>Route</h2>
+                            <h2>Dhaka - Sylhet</h2>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between">
+                            <h2>Departure Time</h2>
+                            <h2>9:00 PM</h2>
+                        </div>
+                        <hr>
+                        <div class="flex justify-evenly">
+                            <p class="bg-[#4b0081] w-60 h-12 text-white rounded-3xl text-center flex items-center justify-center">Boarding Point - Laxmipur</p>
+                            <p class="bg-[#4b0081] w-60 h-12 text-white rounded-3xl text-center flex items-center justify-center">Dropping Point - Bogura</p>
+                            <p class="bg-[#4b0081] w-60 h-12 text-white rounded-3xl text-center flex items-center justify-center">Est. Time - 11 Hour</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class=" w-1/4 flex flex-col items-center justify-center ">
+                        <i></i>
+                        <p class="text-3xl font-black text-gray-900">550 Taka</p>
+                        <p>Per Seat</p>
+                    </div>
+                </div>
+
+               </div>
+            </div>
+            <div class="mt-5 flex gap-5">
+                <i></i>
+                <div class="w-3/4 bg-[#E6E8E6] h-[950px] p-5 rounded-2xl">
+                    <h4 class="text-xl text-[#4b0081] font-bold">Select Your Seat</h4>
+                    <hr>
+                    <div class="flex justify-between py-5">
+                        <div class="flex gap-3">
+                            <i class="fa-solid text-xl  fa-couch"></i>
+                            <p>Available</p>
+                        </div>
+                        <hr>
+                        <div class="flex gap-3">
+                            <i class="fa-solid text-xl text-[#4b0081] fa-couch"></i>
+                            <p>Selected</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex justify-end ">
+                        <div class=" bg-[#fed700] py-3 px-8 rounded-xl text-white w-[90px]  mr-24 my-5">
+                            <img src="images/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">A</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy"  id="A1" value="economy" ><a href="" >A1</a></button>
+                            <button class="py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy"  id="A2" value=""><a href="">A2</a></button>
+                            <button class="py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy"  id="A3" value=""><a href="">A3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy"  id="A4" value="300" ><a href="">A4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">B</h4>
+                            <button   class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="B1"  value="200"><a href="">B1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="B2" value="300"><a href="">B2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="B3" value="" ><a href="">B3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="B4" value="400"><a href="">B4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">C</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C1" value="300"><a href="">C1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C2" value="300"><a href="">C2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C3" ><a href="">C3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="C4" ><a href="">C4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                                <h4 class="flex items-center">D</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="D1" ><a href="">D1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="D1" ><a href="">D2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="D1" ><a href="">D3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="D1" ><a href="">D4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">E</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C1" value="300"><a href="">E1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C2" value="300"><a href="">E2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C3" ><a href="">E3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="C4" ><a href="">E4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">F</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C1" value="300"><a href="">F1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C2" value="300"><a href="">F2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="C3" ><a href="">F3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="C4" ><a href="">F4</a></button>
+                        </div>
+                       
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">G</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="G1" ><a href="">G1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="G2" ><a href="">G2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="G3" ><a href="">G3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="G4" ><a href="">G4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">F</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="H1" ><a href="">H1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="H2" ><a href="">H2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="H3" ><a href="">H3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="H4" ><a href="">H4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">I</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline"value="economy"  id="I1" ><a href="">I1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="I2" ><a href="">I2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="I3" ><a href="">I3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="I4" ><a href="">I4</a></button>
+                        </div>
+                        <div class="flex justify-evenly">
+                            <h4 class="flex items-center">J</h4>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="J1" ><a href="">J1</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="J2" ><a href="">J2</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="J3" ><a href="">J3</a></button>
+                            <button class=" py-3 px-8 rounded-xl btn-primary btn btn-outline" value="economy" id="J4" ><a href="">J4</a></button>
+                        </div>
+                    </div>
+                </div>
+  1
+                <div class="w-1/4 bg-[cream] h-[900px] p-5 rounded-2xl">
+                    <div>
+                    <h4 class="text-xl text-[#4b0081] font-bold">Select Your Seat</h4>
+                    <div class="flex justify-between gap-2">
+                        <div class="flex gap-2">
+                            <p class="text-[#ff69b3] font-extrabold text-xl flex">Seat</p>
+                            <span class="text-[#ff69b3]  font-extrabold text-xl" id="seatNumber"></span>
+                        </div>
+                        <p class="text-[#ff69b3]  font-extrabold text-xl">Class</p>
+                        <p class="text-[#ff69b3]  font-extrabold text-xl">Price</p>
+                    </div>
+                </div>
+                    <hr>
+                    <div  id ="selectId" class="">
+         
+                    </div>
+                    <hr>
+                  
+                    
+                    <br>
+                    <div id="totalPrice" class="flex justify-between">
+                        <p class="text-[#4b0081] text-xl font-semibold">Total Price</p>
+                        <div class="text-[#4b0081] text-xl font-semibold" id="price_id">BDT </div>
+                    </div>
+                  <hr>
+                    
+                    <div class="flex justify-between py-3">
+                        <input id="coupon" class="px-5 rounded-xl bg-white " placeholder="type your coupon here" type="text" >
+                        <button id="apply" class="btn btn-primary ">Apply</button>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class="flex justify-between">
+                        <p class="text-[#4b0081] text-xl font-semibold">Grand Total</p>
+                        <p class="text-[#4b0081] text-xl font-semibold">BDT<span id="grand-Total"></span></p>
+                    </div>
+                    <br>
+                    <div class="pb-5">
+                        <p class="text-gray-700 font-semibold text-md pb-3">Passenger Name*</p>
+                        <input class="w-full p-3 rounded-xl bg-white" type="text" placeholder="Enter your name">
+                    </div >
+                    <div class="pb-5">
+                        <p class="text-gray-700 font-semibold text-md pb-3">Phone Number*</p>
+                        <input class="w-full p-3 rounded-xl bg-white" type="text"  placeholder="Enter your phone number">
+                    </div>
+                    <div class="pb-5">
+                        <p class="text-gray-700 font-semibold text-md pb-3">Email ID</p>
+                        <input class="w-full p-3 rounded-xl bg-white type="text placeholder="Enter your email id">
+                    </div>
+
+                    <button class="btn btn-primary w-full p-5">Next</button>
+                    <div class="flex justify-between pt-5 text-sm ">
+                        <p class="underline">Terms and Conditions</p>
+                        <p class="underline">Cancellation Policy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script src="utility.js"></script>
+    <script src="scipt.js"></script>
+    <!-- <script src="tailwind.config.js"></script> -->
+</body>
+</html>
